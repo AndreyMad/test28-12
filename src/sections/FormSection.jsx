@@ -102,11 +102,10 @@ const FormSection = ({ updateCards }) => {
             clearForm();
             setIsSuccesCreated(false);
             updateCards();
-            document.getElementById("users").scrollIntoView();
           }, 3000)
         }
       } catch (err) {
-        NotificationManager.error(err.response?.data?.message || 'Something went wrong', '', 5000)
+        NotificationManager.error(err.response?.data?.message || 'Something went wrong', '', 3000)
         setIsLoading(false);
       }
     }

@@ -2,7 +2,7 @@
   "name": "testtask",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://AndreyMad.github.io/test28-12",
+  "homepage": "https://andreymad.github.io/test28-12/",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
