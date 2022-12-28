@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/test28-12/static/css/main.888a402c.css",
+    "main.js": "/test28-12/static/js/main.d90d2201.js",
+    "static/js/787.f06850df.chunk.js": "/test28-12/static/js/787.f06850df.chunk.js",
+    "static/media/pexels-alexandr-podvalny-1227513.jpeg": "/test28-12/static/media/pexels-alexandr-podvalny-1227513.e7cf2490e40b3146155e.jpeg",
+    "static/media/success-image.svg": "/test28-12/static/media/success-image.0d3202ba11b04fa7364b0f83ce42aea5.svg",
+    "static/media/Logo.svg": "/test28-12/static/media/Logo.8bb55362d01d55393ccc5476d96f0c14.svg",
+    "static/media/notification.svg?s3g3t9": "/test28-12/static/media/notification.5d0158671dd860c714c4.svg",
+    "static/media/notification.eot": "/test28-12/static/media/notification.3657084dc0419605a91c.eot",
+    "static/media/notification.woff?s3g3t9": "/test28-12/static/media/notification.c392cd33d9d9de730f9d.woff",
+    "static/media/notification.ttf?s3g3t9": "/test28-12/static/media/notification.c5d9251ea82e42f75381.ttf",
+    "index.html": "/test28-12/index.html",
+    "static/media/Rolling-1s-200px.svg": "/test28-12/static/media/Rolling-1s-200px.a7cc3c4442f5166522ef9b43f09f9564.svg",
+    "main.888a402c.css.map": "/test28-12/static/css/main.888a402c.css.map",
+    "main.d90d2201.js.map": "/test28-12/static/js/main.d90d2201.js.map",
+    "787.f06850df.chunk.js.map": "/test28-12/static/js/787.f06850df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.888a402c.css",
+    "static/js/main.d90d2201.js"
+  ]
+}
