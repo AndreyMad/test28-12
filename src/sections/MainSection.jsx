@@ -13,7 +13,10 @@ const MainSection = () => {
         interfaces with accessibility in mind. They should also be excited to learn,
         as the world of Front-End Development keeps evolving.
       </span>
-      <PrimaryButton btnText="Sign up" link="/#form" />
+      <PrimaryButton
+        btnText="Sign up"
+        onClick={() => document.getElementById("form").scrollIntoView()}
+      />
     </section>
   )
 }

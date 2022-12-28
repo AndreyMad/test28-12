@@ -8,8 +8,14 @@ const Header = () => {
       <div className="header__container-inner">
         <img src={logo} alt="Company logo" className="header__logo" />
         <div className="header__wrapper">
-          <PrimaryButton btnText={"Users"} link="/#users" />
-          <PrimaryButton btnText={"Sign up"} link="/#form" />
+          <PrimaryButton
+            btnText={"Users"}
+            onClick={() => document.getElementById("users").scrollIntoView()}
+          />
+          <PrimaryButton
+            btnText={"Sign up"}
+            onClick={() => document.getElementById("form").scrollIntoView()}
+          />
         </div>
       </div>
     </header>

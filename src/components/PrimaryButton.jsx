@@ -7,7 +7,6 @@ const PrimaryButton = ({
   onClick = null,
   customStyles = {},
   disabled = false,
-  link = "",
 }) => {
   return (
     <Button
@@ -17,7 +16,7 @@ const PrimaryButton = ({
       onClick={onClick}
       disabled={disabled}
     >
-      {link ? <a href={link}>{btnText}</a> : <span>{btnText}</span>}
+      {btnText}
     </Button>
   )
 }
