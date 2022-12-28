@@ -1,0 +1,64 @@
+.userCard {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 328px;
+    height: 254px;
+    border-radius: 10px;
+    padding: $primary_card_padding;
+    box-sizing: border-box;
+    margin-bottom: $sm_card_margin;
+
+  }
+
+  &__photo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+
+  &__name,
+  &__position,
+  &__email,
+  &__phone {
+    font-size: $primary_font_body_size;
+    line-height: $primary_font_body_height;
+    font-weight: $primary_font_weight;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 100%;
+    &-tooltiped:hover{
+      cursor: pointer;
+
+    }
+  }
+
+  &__name {
+    margin: $sm_card_margin auto;
+  }
+
+  @media (min-width:$breakpoint2) {
+    &__wrapper {
+      max-width: 344px;
+      margin-bottom: $md_card_margin;
+    }
+  }
+
+  @media (min-width:$breakpoint3) {
+    &__wrapper {
+      max-width: 282px;
+      margin-bottom: $lg_card_margin;
+    }
+  }
+
+  @media (min-width:$breakpoint4) {
+    &__wrapper {
+      max-width: 370px;
+      margin-bottom: $lg_card_margin;
+    }
+  }
+}

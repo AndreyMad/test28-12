@@ -1,0 +1,43 @@
+@import "variables.scss";
+
+.header {
+  &__logo {
+    width: 104px;
+  }
+
+  &__container {
+    min-width: 100vw;
+    background-color: #fff;
+
+    &-inner {
+      display: flex;
+      height: 60px;
+      justify-content: space-between;
+      padding: 0px $primary_body_padding;
+    }
+  }
+
+  &__wrapper {
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @media (min-width:$breakpoint2) {
+    &__container-inner {
+      max-width: 704px;
+      margin: auto;
+    }
+  }
+  @media (min-width:$breakpoint3) {
+    &__container-inner {
+      max-width: 904px;
+    }
+  }
+  @media (min-width:$breakpoint4) {
+    &__container-inner {
+      max-width: 1170px;
+    }
+  }
+}

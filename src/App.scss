@@ -1,0 +1,9 @@
+@import "./styles/variables.scss";
+@import "./styles/header.scss";
+@import "./styles/primaryBtn.scss";
+@import "./styles/styles.scss";
+@import "./styles/card.scss";
+
+body{
+    background-color: $background_color;
+}

@@ -1,0 +1,214 @@
+.mainSection {
+  &__container {
+    height: 500px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: auto calc(100% + 320px);
+    background-image: url('../assets/pexels-alexandr-podvalny-1227513.jpeg');
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding: calc(2 * $primary_card_padding) $primary_body_padding 71px;
+
+    &:after {
+      width: 100%;
+      height: 100%;
+      content: "";
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.5);
+      top: 0;
+      left: 0;
+    }
+  }
+
+  &__title,
+  &__text {
+    color: #ffffff;
+    z-index: 1;
+    max-width: 380px;
+  }
+
+  &__title {
+    font-size: $primary_font_heading_size;
+    line-height: $primary_font_heading_height;
+    font-weight: $primary_font_weight;
+    margin: 0;
+  }
+
+  &__text {
+    font-size: $primary_font_body_size;
+    line-height: $primary_font_body_height;
+    font-weight: $primary_font_weight;
+    margin-bottom: 12px;
+  }
+}
+
+.cardsSection {
+  &__container {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+  }
+
+  &__title {
+    font-size: $primary_font_heading_size;
+    line-height: $primary_font_heading_height;
+    font-weight: $primary_font_weight;
+    max-width: 80%;
+    margin: 140px auto 50px;
+  }
+
+  &__wrapper {
+    width: calc(100% - $primary_body_padding * 2);
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 650px;
+    margin-bottom: 30px;
+  }
+}
+
+.formSection {
+  &__container {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+
+  }
+
+  &__title {
+    font-size: $primary_font_heading_size;
+    line-height: $primary_font_heading_height;
+    font-weight: $primary_font_weight;
+    max-width: 80%;
+    margin: 140px auto 50px;
+  }
+
+  &__wrapper {
+    width: 328px;
+  }
+
+  &__textInput {
+    height: 54px;
+    box-sizing: border-box;
+    margin-bottom: 50px !important;
+
+    & div {
+      height: inherit;
+    }
+
+    & label {
+      font-size: $primary_font_body_size;
+      margin-left: 2px;
+      font-family: 'Nunito';
+      letter-spacing: 0;
+    }
+
+    & .MuiFormHelperText-root {
+      letter-spacing: 0;
+      margin-left: 16px;
+      margin-top: 2px;
+    }
+
+  }
+
+  &__labelTitle {
+    margin-top: -5px;
+    margin-bottom: 9px;
+    text-align: left;
+    font-size: $primary_font_body_size;
+  }
+
+  &__radioBtn {
+    height: 33px;
+    margin-left: -9px !important;
+  }
+
+}
+
+@media (min-width:$breakpoint2) {
+  .mainSection {
+    &__container {
+      padding-bottom: 88px;
+      background-position: calc(50% - 20px) 100%;
+      background-repeat: no-repeat;
+      background-size: 2640px 812px;
+    }
+
+    &__title,
+    &__text {
+      max-width: 380px;
+    }
+
+    &__title {
+      margin-top: 49px;
+    }
+  }
+
+  .cardsSection {
+    &__wrapper {
+      width: calc(100% - $primary_body_padding * 2);
+      max-width: 704px;
+      justify-content: space-between;
+      margin-bottom: 34px;
+    }
+  }
+
+  .formSection {
+    &__wrapper {
+      width: 380px;
+    }
+  }
+}
+
+@media (min-width:$breakpoint3) {
+  .mainSection {
+    &__container {
+      height: 650px;
+      padding-bottom: 163px;
+      background-position: calc(50% - 30px) calc(100% - -2px);
+      background-size: 3507px 1060px;
+    }
+
+    &__title {
+      margin-top: 124px;
+    }
+  }
+
+  .cardsSection {
+    &__wrapper {
+      max-width: 904px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media (min-width:$breakpoint4) {
+  .mainSection {
+    &__container {
+      height: 650px;
+      max-width: 1170px;
+      margin: auto;
+      background-position: calc(50% - 0px) calc(100% + 210px);
+      background-size: 2570px 1700px;
+
+    }
+  }
+
+  .cardsSection {
+    &__wrapper {
+      max-width: 1170px;
+    }
+  }
+}

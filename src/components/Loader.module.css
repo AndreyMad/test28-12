@@ -1,0 +1,31 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  z-index: 9;
+  background-color: rgba(100, 100, 100, 0.2);
+  transition: 4000ms;
+  top: 0px;
+  position: fixed;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  animation: rotate 600ms 0ms linear infinite;
+  position: absolute;
+  left: calc(50% - 24px);
+  top: calc(50% - 24px);
+  z-index: 10;
+  opacity: 1;
+
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,26 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  z-index: 9;
+  background-color: #ffffff;
+  background-color: rgba(100, 100, 100, 0.9);
+  top: 0px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.succesIcon {
+  position: absolute;
+  z-index: 10;
+  opacity: 1;
+  margin: auto;
+}
+
+.title {
+  margin-bottom: 600px;
+  font-size: 40px;
+  font-family: inherit;
+  color: #ffffff;
+}
