@@ -1,11 +1,12 @@
-import React, { useEffect, useState } from 'react';
-import './App.scss';
-import Header from './components/Header';
-import MainSection from './sections/MainSection';
-import CardsSection from './sections/CardsSection';
-import FormSection from './sections/FormSection';
-import { getCardsApi } from './api/api';
-import Loader from './components/Loader';
+import React, { useEffect, useState } from "react";
+
+import "./App.scss";
+import { getCardsApi } from "./api/api";
+import Header from "./components/Header";
+import MainSection from "./sections/MainSection";
+import CardsSection from "./sections/CardsSection";
+import FormSection from "./sections/FormSection";
+import Loader from "./components/Loader";
 
 const App = () => {
   const [page, setPage] = useState(1);
