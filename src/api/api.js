@@ -1,16 +1,16 @@
 import axios from "axios";
 const baseUrl = "https://frontend-test-assignment-api.abz.agency/api/v1";
 
-export const getToken = async () => {
+export const getToken = () => {
   return axios.get(`${baseUrl}/token`);
 };
 
-export const getCardsApi = async ({ page, count = 6 }) => {
-  return await axios.get(`${baseUrl}/users`, { params: { page, count } });
+export const getCardsApi = ({ page, count = 6 }) => {
+  return axios.get(`${baseUrl}/users`, { params: { page, count } });
 };
 
-export const getPositionsApi = async () => {
-  return await axios.get(`${baseUrl}/positions`);
+export const getPositionsApi = () => {
+  return axios.get(`${baseUrl}/positions`);
 };
 
 export const addUser = async (formData) => {
